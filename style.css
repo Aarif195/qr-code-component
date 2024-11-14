@@ -64,7 +64,8 @@ body {
   border-radius: 5px;
 }
 
-.generate-qr-code-btn {
-  /* font-size: 20px; */
-  /* margin-bottom: 30px; */
+@media (max-width: 768px) {
+  .codegenerator-container {
+    width: 350px;
+  }
 }
