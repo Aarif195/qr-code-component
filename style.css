@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 25px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.codegenerator-container {
+  background-color: #fff;
+  width: 550px;
+  /* min-height: 100vh; */
+  padding: 2rem 1rem;
+  border-radius: 20px;
+}
+
+.qr-text {
+  padding: 10px 20px;
+  /* width: 300px; */
+  border: 2px solid hsl(218, 44%, 22%);
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.qr-container-1 {
+  background-color: hsl(212, 74%, 56%);
+  /* background-color: rgb(45, 110, 214); */
+  width: 280px;
+  padding: 1rem 2rem;
+  margin: auto;
+  display: none;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.generate-qr-code-btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.generate-qr-code-btn {
+  /* font-size: 20px; */
+  /* margin-bottom: 30px; */
+}
